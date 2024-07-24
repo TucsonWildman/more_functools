@@ -7,7 +7,7 @@ from abc        import ABC, abstractmethod
 from functools  import *
 from typing     import Any, Callable, Union
 
-__all__ = ['readonly', 'class_property', 'cached_class_property', 'lru_staticmethod', 'lru_classmethod']
+__all__ = ['readonly', 'class_property', 'cached_class_property']
 
 def readonly(ABC):
     '''
